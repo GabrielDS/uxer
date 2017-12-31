@@ -7,3 +7,7 @@ Mas e se a variável for tipo texto?
 
 Enviando a informação com uma letra não vai lançar exceções e erros. Por conseguinte, a depender da situação, pode levar um tempo considerável do programador para resolver esse problema.
 
+
+## Objetivo
+
+Daí vem o objetivo da criação do projeto **UPXER**, a capacidade de utilizar uma biblioteca que valida, formata e substitui entradas e saídas de dados.  
