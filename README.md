@@ -1,4 +1,9 @@
 # UPXER
 
-Nos dias atuais, a maioria das aplicações, num certo momento, acabam recebendo dados vindos através de um certo usuário. E para o funcionamento correto da nossa aplicação, esses dados precisam ser validados, tanto no lado do cliente quanto no lado do servidor. Essas validações, em muitos casos, são cotidianas, por exemplo: Verificar se existe alguma letra na variável "telefoneDoUsuário". Se esperamos uma variável de tipo inteiro traz menos preocupação para o programador, pois ele sabe que essa informação não vai chegar no banco de dados, no momento que o usuário enviar o dado com uma letra para essa variável, vai ocorrer uma exceção ou um erro. Mas e se a variável for tipo texto...? Digitando uma letra não vai lançar exceções e erro, não é?
-Vai levar um tempinho para o programador resolver esse caso, mas é claro, esse tempo não vai ser igual para todos. Existem n situações que influenciam nesse tempo mas uma coisa é certa: "Vai perder um tempinho". 
+Imagine uma situação cotidiana: "Verificar se existe alguma letra na variável **telefoneDoUsuário**. 
+Traz menos preocupação para o programador se essa variável for pré definida como tipo inteiro, pois quando o usuário enviar o dado com uma letra para essa variável, ocorrererá uma exceção/erro, ou seja, a informação não vai chegar no banco de dados.
+
+Mas e se a variável for tipo texto? 
+
+Enviando a informação com uma letra não vai lançar exceções e erros. Por conseguinte, a depender da situação, pode levar um tempo considerável do programador para resolver esse problema.
+
